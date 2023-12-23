@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<br><br><br><br><br><br><br><br><br><br>
+  <a href="#">Home</a>
+  <a href="#">Verein</a>
+  <a href="#">Herren</a>
+  <a href="#">Frauen</a>
+  <a href="#">Junioren</a>
+  <a href="#">Kinderfussball</a>
+  <a href="#">Kalender</a>
+  <a href="#">Sponsoren</a>
+  <a href="#">Kontakt</a>
+</div>
+
+<div id="main">
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Kalender</span>
+    <span style="font-size:30px;float: none;position: absolute;top: 5%;left: 50%;transform: translate(-50%, -50%);"><img src="logo3.png" width="55" height="55"><b>FC Erlinsbach</b></span>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+<div class="calendar">
+  <div class="timeline">
+    <div class="spacer"></div>
+    <div class="time-marker">9:00</div>
+    <div class="time-marker">10:00</div>
+    <div class="time-marker">11:00</div>
+    <div class="time-marker">12:00</div>
+    <div class="time-marker">13:00</div>
+    <div class="time-marker">14:00</div>
+    <div class="time-marker">15:00</div>
+    <div class="time-marker">16:00</div>
+    <div class="time-marker">17:00</div>
+    <div class="time-marker">18:00</div>
+    <div class="time-marker">19:00</div>
+    <div class="time-marker">20:00</div>
+
+  </div>
+  <div class="days">
+    <div class="day mon">
+      <div class="date">
+        <p class="date-num">9</p>
+        <p class="date-day">Mo</p>
+      </div>
+      <div class="events">
+        <div class="event start-10 end-12 color2" >
+            <a id="myBtn" href="#">
+            <img src="more.png" width="40" height="40"></a>
+            <p class="title"><b>Vereinsvorstand Meeting</b></p>
+          <p class="time">10:00 - 12:00</p>
+        </div>
+        <div class="event start-19 end-21 color4">
+            <a id="myBtn" href="#">
+            <img src="more.png" width="40" height="40"></a>
+             <p class="title"><b>Trainings</b></p>
+          <p class="time">19:00 - 21:00</p>
+        </div>
+      </div>
+    </div>
+    <div class="day tues">
+      <div class="date">
+        <p class="date-num">10</p>
+        <p class="date-day">Di</p>
+      </div>
+      <div class="events">
+         <div class="event start-19 end-21 color4">
+            <a id="myBtn" href="#">
+            <img src="more.png" width="40" height="40"></a>
+             <p class="title"><b>Trainings</b></p>
+          <p class="time">19:00 - 21:00</p>
+        </div>
+      </div>
+    </div>
+    <div class="day wed">
+      <div class="date">
+        <p class="date-num">11</p>
+        <p class="date-day">Mi</p>
+      </div>
+      <div class="events">
+        <div class="event start-16 end-18 color3">
+            <a id="myBtn" href="#">
+            <img src="more.png" width="40" height="40"></a>
+                    <p class="title"><b>Mitgliederversammlung</b></p>
+          <p class="time">16:00 - 18:00</p>
+        </div>
+        <div class="event start-19 end-21 color4">
+            <a id="myBtn" href="#">
+            <img src="more.png" width="40" height="40"></a>
+             <p class="title"><b>Trainings</b></p>
+          <p class="time">19:00 - 21:00</p>
+        </div>
+      </div>
+    </div>
+    <div class="day thurs">
+      <div class="date">
+        <p class="date-num">12</p>
+        <p class="date-day">Do</p>
+      </div>
+      <div class="events">
+            <div class="event start-19 end-21 color4">
+            <a id="myBtn" href="#">
+            <img src="more.png" width="40" height="40"></a>
+            <p class="title"><b>Trainings</b></p>
+          <p class="time">19:00 - 21:00</p>
+        </div>
+        <div class="event start-10 end-12 ent-general">
+            <a id="myBtn" href="#">
+            <img src="more.png" width="40" height="40"></a>
+            <p class="title"><b>Meeting mit Schmid Haustechnik Sponsor</b></p>
+          <p class="time">10:00 - 12:00</p>
+        </div>
+      </div>
+    </div>
+    <div class="day fri">
+      <div class="date">
+        <p class="date-num">13</p>
+        <p class="date-day">Fr</p>
+      </div>
+      <div class="events2">
+        <div class="event start-14 end-21 color5">
+            <a id="myBtn" href="#">
+            <img src="more.png" width="40" height="40"></a>
+            <p class="title"><b>Verein wegen Wartungen geschlossen </b></p>
+          <p class="time">ganzer Tag</p>
+        </div>
+      </div>
+    </div>
+        <div class="day fri">
+      <div class="date">
+        <p class="date-num">14</p>
+        <p class="date-day">Sa</p>
+      </div>
+      <div class="events">
+         <div class="event start-18 end-20 color6">
+            <a id="myBtn" href="#">
+            <img src="more.png" width="40" height="40"></a>
+             <p class="title"><b>Matchday Junioren:</b></p>
+             <p class="title"><b>FC Erlinsbach vs FC Aarau</b></p>
+          <p class="time">18:00 - 19:30</p>
+        </div>
+      </div>
+    </div>
+        <div class="day fri">
+      <div class="date">
+        <p class="date-num">15</p>
+        <p class="date-day">So</p>
+      </div>
+      <div class="events">
+        <div class="event start-10 end-16 color1">
+            <a id="myBtn" href="#">
+            <img src="more.png" width="40" height="40"></a>
+            <p class="title"><b>Junionen Turnier</b></p>
+          <p class="time">10:00 - 16:00</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <h2>Meeting mit Schmid Haustechnik Sponsor</h2>
+        </div>
+        <div class="modal-body">
+          <p><b>Raum: </b>A1</p>
+          <p><b>Personen: </b>Muhamet Memeti (Geschäftsführer), Yannick Schmid</p>
+            <p><b>Themen:</b></p>
+            <ul>
+              <li>Wie kann Schmid Haustechnik seine Marke effektiv im Verein präsentieren?</li>    
+              <li>Planung von gemeinnützigen Veranstaltungen und Aktivitäten</li>
+              <li>Wie kann die Partnerschaft zwischen dem Verein und dem Sponsor langfristig gestärkt werden?</li>
+              <li>Besprechung von langfristigen Zielen und Strategien.</li>
+              <li>Wie können Spieler in die Partnerschaft einbezogen werden?</li>
+            </ul>
+            <p><b>Sonstiges: </b>-</p>
+        </div>
+        <div class="modal-footer">
+            <h3>10:00 - 12:00 Uhr</h3>
+            <br>
+            <button class="button button1">Ereignis ändern</button>
+            <button class="button button2">Ereignis löschen</button>
+        </div>
+      </div>
+    </div>
+    <script>
+        var modal = document.getElementById("myModal");
+        var btn = document.getElementById("myBtn");
+        var span = document.getElementsByClassName("close")[0];
+
+        btn.onclick = function() {
+          modal.style.display = "block";
+        }
+
+        span.onclick = function() {
+          modal.style.display = "none";
+        }
+
+        window.onclick = function(event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        }
+    </script>
+</body>
+</html>
